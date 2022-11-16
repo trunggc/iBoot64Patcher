@@ -44,7 +44,7 @@ jobs:
         name: iBoot64Patcher-macOS-x86_64-RELEASE
         path: |
           /Users/runner/work/iBoot64Patcher/iBoot64Patcher/iBoot64Patcher-macOS-x86_64-*-RELEASE.tar.xz
-    -name: Download a single artifact
+    - name: Download a single artifact
     uses: actions/download-artifact@v3
     with:
     name: my-artifact

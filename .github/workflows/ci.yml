@@ -67,6 +67,8 @@ jobs:
           /Users/runner/work/iBoot64Patcher/iBoot64Patcher/iBoot64Patcher-macOS-arm64-*-DEBUG.tar.xz
     - name: Download a single artifact
       uses: actions/download-artifact@v3
+    - name: Test Download
+      run: ls -R
   Linux:
     runs-on: ubuntu-latest
     steps:

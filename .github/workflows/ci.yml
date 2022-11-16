@@ -109,3 +109,34 @@ jobs:
           name: iBoot64Patcher-Linux-x86_64-DEBUG
           path: |
             /home/runner/work/iBoot64Patcher/iBoot64Patcher/.github/workflows/iBoot64Patcher-Linux-x86_64*-DEBUG.tar.xz
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+         name: my-artifact
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

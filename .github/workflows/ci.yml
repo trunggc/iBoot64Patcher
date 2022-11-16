@@ -62,7 +62,11 @@ jobs:
         name: iBoot64Patcher-macOS-arm64-RELEASE
         path: |
           /Users/runner/work/iBoot64Patcher/iBoot64Patcher/iBoot64Patcher-macOS-arm64-*-RELEASE.tar.xz
-    - name: macOS arm64 DEBUG Archive
+   - name: Download a single artifact
+  uses: actions/download-artifact@v3
+  with:
+    name: my-artifact
+   - name: macOS arm64 DEBUG Archive
       id: macOS-arm64-DEBUG-Archive
       uses: actions/upload-artifact@v2
       with:
